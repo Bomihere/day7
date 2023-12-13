@@ -1,0 +1,55 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 10px;
+  font-family: arial;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: normal;
+  font-size: 10px;
+}
+
+/* layout */
+
+body{
+  background: #000 url("../images/bg.png") no-repeat top center /cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap{
+  width: 300px;
+  overflow: hidden;
+}
+
+.wrap .imageArea img{
+  vertical-align: top;
+}
+ 
+.wrap .textArea{
+  height: 300px;
+  border-radius: 0 0 30px 30px;
+  border-bottom: 10px solid #46260E;
+  background: #9C6035 url("../images/green.png") no-repeat top center;
+  padding: 20px;
+}
+
+.wrap .textArea h1{
+  margin: 60px 0 10px;
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: #fff;
+}
+
+.wrap .textArea p{
+  color: #E8BC9C;
+  font-size: 1.6rem;
+}
